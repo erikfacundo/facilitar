@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin-top: 10px;
+    font-family: "Rubik", sans-serif
+}
+   .whatsapp-numbers {
+      display: flex;
+      align-items: center;
+    }
+    .whatsapp-numbers span {
+      margin-right: 3px;
+      color: inherit;
+    }
+    .whatsapp-numbers .separator {
+      color: red;
+    }
+
+    .header-divider {
+        height: 2px;
+        border: none;
+        background-color: gray;
+        margin: 0;
+        width: 400px;
+      } 
+
+      .whatsapp-numbers a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .contact-section {
+        background-color: #2e428c; /* Color de fondo azul */
+        color: #fff; /* Color de texto blanco */
+        padding: 50px 0;
+      }
+      
+      .contact-section h2 {
+        color: #fff; /* Color de texto blanco */
+      }
+      
+      .contact-section form {
+        max-width: 600px; /* Ancho máximo del formulario */
+        margin: 0 auto; /* Centrar horizontalmente */
+      }
+    
+  
+      /* Estilos personalizados para los elementos según las dimensiones proporcionadas */
+      .contact-section form input[type="text"] {
+        max-width: 290px;
+        height: 58px;
+      }
+      
+      .contact-section form textarea {
+        max-width: 649px;
+        height: 117px;
+      }
+      
+      .contact-section form button {
+        width: 261.68px;
+        height: 64.7px;
+      }
+      
+      .footer{
+        background-color: #6b6b6b;
+      }
+  
+      .img-logofooter{
+        max-height: 57px;
+      }
+      .w-200{
+        width: 200px;
+      }
+      .a-text {
+        text-decoration: none;
+      }
+
+      
+      /* Variables extras de contenido */
+      .cont-w{
+        width: 330px !important; 
+      }
+      .bg-color{
+        background-color: #f2f2f2;
+      }
+      .mt-6{
+        margin-top: -30px;
+      }
+      .mt-7{
+        margin-top: 45px;
+      }
+      .mt-8{
+        margin-top: 35px;
+      }
+      .mt-10{
+        margin-top: -10px;
+      }
+      .text-blue{
+        color: #2e428c;
+      }
+      
+      
+      .fs-10{
+        font-size: 1.1rem;
+      }
+      .fs-7{
+        font-size: 4rem;
+      }
+      .fs-8{
+        font-size: 18px;
+      }
+      .text-gris{
+        color: #666666;
+      }
+
+      .gap-6{
+        gap: 1.9rem;
+      }
+      .border-gray {
+        border-top: 3px solid #ccc; /* Color y grosor del borde superior */;
+      }
+      .btn-danger{
+        color: #c62829;
+        
+      }
+      /* Estilos para el botón */
+
+      .contact-section form button.btn.btn-danger.btn-block {
+        border-radius: 13px;
+      }
+
+
+      .contact-section form button.btn.btn-danger.btn-block:focus {
+        outline: none; /* Eliminar el contorno en el foco */
+      }
+
+      .btn svg {
+        vertical-align: middle; /* Alinear verticalmente con el texto circundante */
+        margin-top: -1px; /* Ajustar el margen superior */
+      }
+
+      .container-text{
+        max-width: 280px;
+      }
+
+      .rectangle {
+        width: auto;
+        height: 180px;
+        border: 2px solid #2e428c;
+        border-radius: 18px; /* Bordes redondeados */
+        margin-bottom: 20px;
+      }
+      
+      .image-container {
+        width: auto;
+      }
+      
+      .image-container img {
+        border-radius: 16px; /* Bordes redondeados para la imagen */
+      }
+      
+      .text-container {
+        padding: 10px;
+      }
+      
+      .button-container {
+        text-align: right;
+        padding: 10px;
+      }
+      
+      
+
+
+      @media (max-width: 767px) {
+        .fs-7 {
+          font-size: 2rem;
+        }
+      }
+      
+      @media screen and (width: 768px) and (height: 823px) {
+        .img-logo {
+            width: 220px;
+            height: auto; /* Esto mantendrá la proporción original */
+        }
+    }
+    
